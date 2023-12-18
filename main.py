@@ -175,11 +175,15 @@ def body():
             body()
             window.destroy()
         def button2_click():
+            global username
             username = "iflytek"
             body()
+            window.destroy()
         def button3_click():
+            global username
             username = "acer"
             body()
+            window.destroy()
         # 创建按钮
         button1 = tk.Button(window, text="HiteVision", command=button1_click)
         button1.pack(pady=10)
